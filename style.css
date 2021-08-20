@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georama', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header img {
+    width: 75px;
+    height: 70px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.main_menu_list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_menu {
+    flex-grow: 1;
+}
+
+.main_menu_list a {
+    color: #2a3d8f;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.main_menu_list a:hover {
+    color: #3893cc;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 35px 0px;
+}
+
+.hashtag {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.footer-social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-button {
+    margin: 0px 10px;
+}
+
+.footer_wrapper {
+    background-color: #B5D4C5;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #2a3d8f;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.slogan {
+    background-image: url(img/innsbruck1.png);
+    height: 558px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slogan h1 {
+    padding-top: 240px;
+    color: white;
+    font-size: 60px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.about_list li::before {
+    content: "✓";
+    margin-right: 3px;
+}
+
+.ad {
+    display: flex;
+    flex-direction: column;
+    background: url(img/skier.png);
+    background-size: cover;
+    width: 30%;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.ad p {
+    margin: 0;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 2vw;
+    line-height: 33px;
+}
+
+.ad a {
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 60px;
+    align-self: flex-end;
+    background-color: white;
+    opacity: 0.7;
+    padding: 5px 10px;
+}
+
+.temp {
+    display: flex;
+    flex-direction: column;
+}
+
+.temp figcaption {
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(124, 124, 124);
+    color: white;
+    padding: 5px;
+}
+
+.temp img {
+    width: 100%;
+}
+
+.temp figure {
+    border: thin #c0c0c0 solid;
+}
+
+.gallery_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery_item {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    min-height: 256px;
+    text-align: center;
+    background-color: #B5D4C5;
+}
+
+.gallery_item h3 {
+    text-transform: uppercase;
+    flex-grow: 1;
+    color: white;
+}
+
+.power img {
+    width: 17%;
+}
+
+.power {
+    display: flex;
+    width: 250px;
+}
+
+td,
+th {
+    border: solid black 2px;
+    padding: 5px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.transfer span {
+    display: none;
+}
+
+th {
+    background-color: rgb(32, 46, 92);
+    color: white;
+}
+
+h2 {
+    padding: 10px;
+}

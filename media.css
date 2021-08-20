@@ -1,0 +1,118 @@
+                    @media (max-width:425px) {
+                    h2 {
+                        font-size: 26px;
+                        line-height: 30px;
+                    }
+                    h3 {
+                        font-size: 20px;
+                        line-height: 25px;
+                    }
+                    .header {
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    .header img {
+                        width: 55px;
+                        margin-bottom: 5px;
+                    }
+                    .main_menu {
+                        width: 100%;
+                    }
+                    .main_menu_list {
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    .main_menu_list li {
+                        border-bottom: 1px solid #e5e5e5;
+                        width: 100%;
+                    }
+                    .main_menu_list a {
+                        text-align: center;
+                        font-size: 20px;
+                        line-height: 20px;
+                        text-transform: uppercase;
+                        display: block;
+                        padding: 10px 18px;
+                    }
+                    .slogan {
+                        width: 100%;
+                    }
+                    .wrapper {
+                        flex-direction: column;
+                    }
+                    .ad {
+                        width: 100%;
+                    }
+                    .ad p {
+                        font-size: 5vw;
+                    }
+                    .gallery_item {
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+                    .gallery_item:nth-child(2) {
+                        flex-direction: column-reverse;
+                    }
+                    .gallery_item h3 {
+                        align-items: center;
+                        vertical-align: middle;
+                        padding: 50px;
+                    }
+                    .container {
+                        width: 90%;
+                    }
+                    iframe {
+                        width: 100%;
+                    }
+                    .footer {
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    .transfer thead {
+                        display: none;
+                    }
+                    .transfer tr {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        margin-bottom: 20px;
+                    }
+                    .transfer td {
+                        position: relative;
+                        margin: 0 -1px -1px 0;
+                        padding-top: 35px;
+                        width: 45%;
+                    }
+                    .transfer {
+                        width: 100%;
+                    }
+                    .transfer span {
+                        display: block;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        padding: 5px 0px;
+                        background-color: rgba(0, 38, 163, 0.336);
+                    }
+                }
+                
+                @media(max-width:1000px) {
+                    .container {
+                        width: 90%;
+                    }
+                    iframe {
+                        width: 100%
+                    }
+                    .gallery_item {
+                        flex-direction: column;
+                    }
+                    .gallery_item:nth-child(2) {
+                        flex-direction: column-reverse;
+                    }
+                    .gallery_item h3 {
+                        padding: 100px 0;
+                    }
+                    .transfer {
+                        width: 100%;
+                    }
