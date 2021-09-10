@@ -48,6 +48,10 @@ header img {
     color: #3893cc;
 }
 
+.header1 {
+    display: none;
+}
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -223,4 +227,8 @@ th {
 
 h2 {
     padding: 10px;
+}
+
+.hamburger_menu {
+    display: none;
 }
